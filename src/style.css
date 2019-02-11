@@ -1,0 +1,61 @@
+a:hover {
+    text-decoration: none;
+}
+
+/* TodoHeader */
+.count {
+    margin-top: 10px;
+    color: tomato;
+    font-weight: 700;
+}
+
+/* TodoBody */
+.list-group-item {
+    position: relative;
+}
+
+.list-group-item input {
+    vertical-align: middle;
+}
+
+.list-group-item span {
+    margin-left: 10px;
+    vertical-align: top;
+}
+
+.complete {
+    text-decoration: line-through;
+}
+
+.list-group-item a {
+    text-decoration: none;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 54px;
+    line-height: 25px;
+    text-align: center;
+    display: none;
+}
+
+.list-group-item:hover a {
+    display: block;
+}
+
+
+/* TodoBody */
+
+
+.presentation:nth-child(2) {
+    margin-left: 10px;
+    border-radius: 6px;
+}
+
+.presentation:nth-child(2) {
+    margin-left: 20px;
+}
+
+.presentation:nth-child(3) {
+    margin-left: 20px;
+}
